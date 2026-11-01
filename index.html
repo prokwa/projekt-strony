@@ -38,14 +38,14 @@
           />
         </svg>
         <div id="categories"></div>
-          <a href="#">Nowości</a>
-          <a href="#">Mężczyźni</a>
+        <a href="#">Nowości</a>
+        <a href="#">Mężczyźni</a>
         <a href="#">Kobiety</a>
         <a href="#">Dzieci</a>
         <a href="#">Sport</a>
         <a href="#">NikeSKIMS</a>
-        </div>
-        <input id="search" type="search" placeholder="wyszukaj" />
+
+        <input id="search" type="search" placeholder="Wyszukaj" />
         <button id="fav">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -90,9 +90,130 @@
       </nav>
     </header>
 
-    <div>
+    <div id="ad">
       <p>Przeglądaj Nowości</p>
-      <button>Przeglądaj</button>
+      <p id="look">Przeglądaj</p>
     </div>
+
+    <div id="content">
+      <aside id="sidebar">
+        <h2>Mężczyźni Odzież (1967)</h2>
+        <ul id="clothes">
+          <li><a href="#">Koszulki</a></li>
+          <li><a href="#">Spodnie</a></li>
+          <li><a href="#">Kurtki</a></li>
+          <li><a href="#">Dresy</a></li>
+          <li><a href="#">Spodenki</a></li>
+          <li><a href="#">Bielizna</a></li>
+          <li><a href="#">Stroje Sportowe</a></li>
+        </ul>
+
+        <a href="#" class="sort">Wyprzedaż i oferty</a>
+        <a href="#" class="sort">Płeć (1)</a>
+        <a href="#" class="sort">Przeglądaj wg cen</a>
+      </aside>
+
+      <main>
+        <div id="product1">
+          <img
+            id="jacket"
+            src="https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/95e37d60-dbef-451b-92ec-5863dc44cc3b/M+NK+SF+WR+PL-FLD+HD+JKT.png"
+            alt="jacket"
+          />
+          <span class="clothestype">Bestseller</span>
+          <span class="clothesname">Kurtka zimowa Nike sport</span>
+          <span class="clothesdesc">Kurtka puchowa z ociepleniem</span>
+          <span class="clothesprice">599,99 zł</span>
+        </div>
+
+        <div id="product2">
+          <img
+            id="jacket2"
+            src="https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/22cfed8b-7db2-42a5-9c45-9f0da5707496/M+NRG+YACHTY+TCH+FLC+FZ.png"
+            alt="Nike Tech x Lil Yachty"
+          />
+          <span class="clothestype">Dostępne w NIKE SNKRS</span>
+          <span class="clothesname">Nike Tech x Lil Yachty</span>
+          <span class="clothesdesc">Męska kurtka z zamkiem</span>
+          <span class="clothesprice">879.99 zł</span>
+        </div>
+        <div id="ukryte">
+          <div id="product3">
+            <img
+              id="pants1"
+              src="https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/701c3f37-b149-4fa8-9259-5f3b8bb35fbe/M+NK+TCH+TF+BOREAS+OH+PANT.png"
+              alt="Nike Tech Boreas"
+            />
+            <span class="clothestype">Produkt premierowy</span>
+            <span class="clothesname">Nike Tech Boreas</span>
+            <span class="clothesdesc"
+              >Męskie luźne spodnie z szeroką nogawką</span
+            >
+            <span class="clothesprice">649.99 zł</span>
+          </div>
+
+          <div id="product4">
+            <img
+              id="tshirt1"
+              src="https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/95d29551-8a7b-425b-b199-c9dddbae5cb4/M+NK+DF+UV+MILER+WNT+LS+TOP.png"
+              alt="Nike Miler"
+            />
+            <span class="clothestype">Materiały z recyklingu</span>
+            <span class="clothesname">Nike Miler</span>
+            <span class="clothesdesc"
+              >Męska zimowa koszulka z długim rękawem</span
+            >
+            <span class="clothesprice">199.99 zł</span>
+          </div>
+        </div>
+        <button id="przycisk" onclick="pokazWiecej()">Pokaż więcej</button>
+      </main>
+    </div>
+    <hr />
+    <footer>
+      <div>
+        <h6>Zasoby</h6>
+        <ul>
+          <li>Karty upominkowe</li>
+          <li>Firmowe karty upominkowe</li>
+          <li>Znajdź sklep</li>
+          <li>Nike Journal</li>
+          <li>Dołącz do społeczności członkowskiej</li>
+          <li>Prześlij opinię</li>
+          <li>Kody promocyjne</li>
+          <li>Running Shoe Finder</li>
+        </ul>
+      </div>
+      <div>
+        <h6>Pomoc</h6>
+        <ul>
+          <li>Uzyskaj pomoc</li>
+          <li>Status zamówienia</li>
+          <li>Wysyłka i dostawa</li>
+          <li>Zwroty</li>
+          <li>Opcje płatności</li>
+          <li>Opcje płatności</li>
+          <li>Opinie</li>
+          <li>Unijna zharmonizowana informacja o gwarancji</li>
+        </ul>
+      </div>
+      <div>
+        <h6>Firma</h6>
+        <ul>
+          <li>Informacje o Nike</li>
+          <li>Aktualności</li>
+          <li>Praca</li>
+          <li>Ułatwienia dostępu</li>
+        </ul>
+      </div>
+      <div>
+        <h6>Rabaty dla społeczności</h6>
+        <ul>
+          <li>Uczeń/Uczennica</li>
+          <li>Nauczyciel/Nauczycielka</li>
+        </ul>
+      </div>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
