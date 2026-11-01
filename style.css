@@ -122,17 +122,99 @@ main {
   gap: 20px;
 }
 
-#product1 {
-  display: flex;
-  max-width: 200px;
+main div[id^="product"] {
+  width: 45%;
+  text-align: left;
+  height: auto;
 }
 
 #jacket {
   height: 300px;
   margin: 30px;
   margin-top: 50px;
+  display: block;
 }
 
-#product1 span {
-  max-width: 80%;
+main div[id^="product"] span {
+  display: block;
+  width: 350px;
+  margin-left: 30px;
+  text-align: left;
+}
+
+#jacket2 {
+  height: 300px;
+  margin: 30px;
+  margin-top: 50px;
+  display: block;
+}
+
+#pants1 {
+  height: 300px;
+  margin: 30px;
+  margin-top: 50px;
+  display: block;
+}
+
+#tshirt1 {
+  height: 300px;
+  margin: 30px;
+  margin-top: 50px;
+  display: block;
+}
+
+main button {
+  display: block;
+  margin: 30px auto;
+}
+
+#ukryte {
+  display: none;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#przycisk {
+  display: block;
+  width: 150px;
+  margin: 30px auto;
+  background: transparent;
+  border: none;
+}
+
+footer div ul {
+  list-style: none;
+  color: rgb(150, 150, 150);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+}
+
+footer h6 {
+  margin-left: 40px;
+}
+
+footer div ul li {
+  margin-block: 10px;
+}
+
+.clothestype {
+  color: orangered;
+}
+
+.clothesname {
+  font-weight: bold;
+}
+
+.clothesdesc {
+  color: rgb(150, 150, 150);
 }
