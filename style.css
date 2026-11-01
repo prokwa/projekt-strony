@@ -213,7 +213,8 @@ footer div ul li {
 }
 
 .clothesname {
-  font-weight: 900;
+  font-family: Georgia, serif;
+  font-weight: bold;
 }
 
 .clothesdesc {
