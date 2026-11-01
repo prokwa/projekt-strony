@@ -17,13 +17,14 @@ body {
   margin-block: 10px;
   font-size: 10px;
   width: 100%;
+  font-weight: bold;
 }
 
 #logo {
   height: 27px;
   width: 30px;
   margin-right: 60%;
-  margin-left: 7.5%;
+  margin-left: 4%;
 }
 
 nav {
@@ -31,6 +32,12 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  scale: 1.1;
+  transition: 0.5s;
 }
 
 input {
@@ -48,6 +55,7 @@ nav a {
 
 #nikelogo {
   height: 17px;
+  margin-right: 35%;
 }
 
 #fav {
@@ -123,44 +131,37 @@ main {
 }
 
 main div[id^="product"] {
-  width: 45%;
+  width: calc((100% - 40px) / 3);
+  box-sizing: border-box;
   text-align: left;
-  height: auto;
+  margin-top: 20px;
 }
 
-#jacket {
-  height: 300px;
-  margin: 30px;
-  margin-top: 50px;
+main div[id^="product"] img {
+  width: 90%;
+  height: 340px;
+  object-fit: contain;
   display: block;
+  margin: 0 auto;
 }
 
 main div[id^="product"] span {
   display: block;
-  width: 350px;
-  margin-left: 30px;
+  width: 90%;
+  margin-left: 27px;
   text-align: left;
 }
 
-#jacket2 {
+.clothesphoto {
   height: 300px;
   margin: 30px;
   margin-top: 50px;
   display: block;
 }
 
-#pants1 {
-  height: 300px;
-  margin: 30px;
-  margin-top: 50px;
-  display: block;
-}
-
-#tshirt1 {
-  height: 300px;
-  margin: 30px;
-  margin-top: 50px;
-  display: block;
+div[id^="product"]:hover {
+  scale: 1.05;
+  transition: 0.5s;
 }
 
 main button {
@@ -212,7 +213,7 @@ footer div ul li {
 }
 
 .clothesname {
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .clothesdesc {

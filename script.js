@@ -1,12 +1,12 @@
 function pokazWiecej() {
-  let produkty = document.getElementById("ukryte");
-  let przycisk = document.getElementById("przycisk");
+  const produkty = document.getElementById("ukryte");
+  const przycisk = document.getElementById("przycisk");
 
-  if (produkty.style.display === "none") {
+  if (getComputedStyle(produkty).display === "none") {
     produkty.style.display = "flex";
-    przycisk.innerHTML = "Pokaż mniej";
+    przycisk.textContent = "Pokaż mniej";
   } else {
     produkty.style.display = "none";
-    przycisk.innerHTML = "Pokaż więcej";
+    przycisk.textContent = "Pokaż więcej";
   }
 }
