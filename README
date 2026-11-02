@@ -1,0 +1,27 @@
+Nike Shop
+
+Projekt strony internetowej sklepu z odzieżą Nike, wykonany w HTML, CSS i JavaScript.
+
+Funkcje
+
+Wyświetlanie produktów
+
+Kategorie odzieży
+
+Efekty po najechaniu na elementy
+
+Przycisk „Pokaż więcej” do wyświetlania kolejnych produktów
+
+Technologie
+
+HTML
+
+CSS
+
+JavaScript
+
+Informacja o wyświetlaniu
+
+Strona została zaprojektowana z myślą o wyświetlaniu w przeglądarce na ekranie o rozmiarze zbliżonym do ekranu mojego laptopa.
+W zależności od rozmiaru okna i ustawień przeglądarki jej wygląd może się nieco różnić.
+W VS Code Live Preview układ może prezentować się inaczej niż w osobnym oknie przeglądarki.
